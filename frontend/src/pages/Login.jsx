@@ -1,7 +1,5 @@
-import Form from '../components/Form'
+import Form from "../components/Form.jsx";
 
-function  Login() {
-    return <Form route="/api/token/" method="login" />
+export default function Login() {
+  return <Form method="login" />;
 }
-
-export default Login;
